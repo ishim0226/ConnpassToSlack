@@ -28,7 +28,6 @@ def get_connpass_data_count(url,keyword):
         r = requests.get(url, timeout=10,
             params={
                 "keyword_or": keyword
-                #"order": 1 #1: 更新日時順, 2: 開催日時順, 3: 新着順
                 }
             )
         data = json.loads(r.text)
@@ -72,7 +71,7 @@ def get_connpass_data(url,count,start,keyword):
                 "keyword_or": keyword,
                 "start": start,
                 "count": count,
-                "order": 1 #1: 更新日時順, 2: 開催日時順, 3: 新着順
+                "order": 1
                 }
             )
         connpass_data = json.loads(r.text)
