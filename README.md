@@ -44,7 +44,7 @@ In addition, the program runs in an AWS serverless environment, and deployment o
 
 ## Usage (deployment)
 
-1. Repogitory download
+1. Repository download
    
    ```
    git clone https://github.com/ishim0226/ConnpassToSlack.git
