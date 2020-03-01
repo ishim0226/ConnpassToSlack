@@ -1,7 +1,4 @@
 import os, sys
-#sys.path.append(os.path.join(os.path.dirname(__file__), 'site-packages'))
-#import warnings
-#warnings.simplefilter('ignore')
 import requests
 import json
 from boto3.dynamodb.types import TypeDeserializer
@@ -9,7 +6,7 @@ import logging
 
 # param define
 logger = logging.getLogger("this")
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 deserializer = TypeDeserializer()
 webhook_url = os.environ['WEBHOOK_URL']
 

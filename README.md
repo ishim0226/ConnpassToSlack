@@ -79,6 +79,7 @@ In addition, the program runs in an AWS serverless environment, and deployment o
       - DYNAMO_TABLE => Same as dynamodb_table_name defined above.
       - ADDRESS_FILTER => Address to be notified. (Separate with comma when multiple. Searched as OR.)
       - WEBHOOK_URL => Slack webhook url. (Get to https://slack.com/services/new/incoming-webhook)
+      - UPDATE_NOTIFY => Write ( True or False ). Whether to notify the update information of the notified event. If nothing is defined, it is treated as False.
 
 4. Initialize
 

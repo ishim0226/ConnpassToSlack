@@ -9,7 +9,7 @@ import logging
 
 # param define
 logger = logging.getLogger("this")
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 dynamodb = boto3.resource('dynamodb')
 keyword = os.environ['KEYWORD']
 url = os.environ['CONNPASS_URL']
