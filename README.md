@@ -44,11 +44,16 @@ In addition, the program runs in an AWS serverless environment, and deployment o
 
 ## Usage (deployment)
 
-1. git clone
-2. directory change
+1. Repogitory download
+   
+   ```
+   git clone https://github.com/ishim0226/ConnpassToSlack.git
+   ```
+
+2. Directory change
    
     ```
-    cd connpass_to_slack/terraform/
+    cd ConnpassToSlack/terraform/
     ```
 
 3. Parameter Setting
